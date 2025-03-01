@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Tracking</title>
+    <link rel="stylesheet" href="tracking.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <div class="tracking-container">
+        <h2>Live Location Tracking</h2>
+        <button id="start-tracking">Start Tracking</button>
+        <button id="share-location">Share Location</button>
+        <p id="location-status">Location data will appear here...</p>
+        <div id="map" style="height: 300px; width: 100%; margin-top: 10px;"></div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="tracking.js"></script>
+</body>
+</html>

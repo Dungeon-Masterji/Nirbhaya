@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency SMS</title>
+    <link rel="stylesheet" href="emergency_sms.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Choose an Emergency SMS</h2>
+        <div id="sms-list">
+            <!-- Messages will be loaded dynamically -->
+        </div>
+    </div>
+
+    <!-- Modal for Sending SMS -->
+    <div id="sms-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>Send SMS</h3>
+            <p id="selected-message"></p>
+            <label for="contact-select">Select Contact:</label>
+            <select id="contact-select"></select>
+            <button onclick="sendSMS()">Send SMS</button>
+        </div>
+    </div>
+
+    <script src="emergency_sms.js"></script>
+</body>
+</html>

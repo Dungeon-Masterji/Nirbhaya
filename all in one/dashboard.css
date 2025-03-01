@@ -1,0 +1,131 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f2ff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Dropdown styles */
+.dropdown-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    top: 50px;
+    right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background: #f0f0f0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.feature {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sos { background-color: #ffe6e6; color: red; }
+.sms { background-color: #ffedd5; color: orange; }
+.helpline { background-color: #e0f0ff; color: blue; }
+.record { background-color: #e6ffe6; color: green; }
+.track { background-color: #f5e6ff; color: purple; }
+
+.manage-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manage-btn:hover {
+    background-color: #540a91;
+}
+
+/* Helpline Number Styling */
+#helpline-numbers {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e0f0ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#helpline-numbers span {
+    display: block;
+    margin-top: 5px;
+}
+
+#helpline-numbers span:nth-child(2) { color: red; }
+#helpline-numbers span:nth-child(3) { color: blue; }
+#helpline-numbers span:nth-child(4) { color: green; }
+#helpline-numbers span:nth-child(5) { color: purple; }

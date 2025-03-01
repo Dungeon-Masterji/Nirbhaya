@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f7f2fc;
+}
+
+h2 {
+    color: #6a0dad;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#stop {
+    background-color: #f44336;
+    color: white;
+    display: none;
+}
+
+.audio-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+audio {
+    display: block;
+    width: 250px;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}

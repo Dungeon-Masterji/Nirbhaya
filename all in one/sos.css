@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f3ff;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #8a2be2;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    padding: 20px 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#sosButton {
+    background-color: red;
+    color: white;
+}
+
+#sosButton:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#timer {
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#stopButton {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: none;
+}
