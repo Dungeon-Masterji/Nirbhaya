@@ -2,7 +2,8 @@
 
 Nirbhaya is a web-based safety platform designed to empower women and provide them with essential tools for emergencies. It offers features like SOS alerts, live location tracking and support.
 
-## Here is the deployed link : https://v0-women-s-safety-website.vercel.app/dashboard 
+## Here is the deployed link : v0-women-s-safety-website.vercel.app
+
 # give it a star if you liked it
 
 ## Features
