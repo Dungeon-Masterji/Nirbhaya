@@ -12,7 +12,7 @@
         <h2>Emergency Contact Numbers</h2>
         <div id="phone-numbers">
             <div class="phone-number-input">
-                <select id="relationship1">
+                <select id="relationship1" name="relationship1" required>
                     <option value="">Select Relationship</option>
                     <option value="Father">Father</option>
                     <option value="Mother">Mother</option>
@@ -21,11 +21,11 @@
                     <option value="Friend">Friend</option>
                     <option value="Other">Other</option>
                 </select>
-                <input type="text" id="name1" placeholder="Name">
-                <input type="tel" id="phone1" placeholder="Phone Number">
+                <input type="text" id="name1" name="name1" placeholder="Name" required>
+                <input type="tel" id="phone1" name="phone1" placeholder="Phone Number" required>
             </div>
             <div class="phone-number-input">
-                <select id="relationship2">
+                <select id="relationship2" name="relationship2" required>
                     <option value="">Select Relationship</option>
                     <option value="Father">Father</option>
                     <option value="Mother">Mother</option>
@@ -34,11 +34,11 @@
                     <option value="Friend">Friend</option>
                     <option value="Other">Other</option>
                 </select>
-                <input type="text" id="name2" placeholder="Name">
-                <input type="tel" id="phone2" placeholder="Phone Number">
+                <input type="text" id="name2" name="name2" placeholder="Name" required>
+                <input type="tel" id="phone2" name="phone2" placeholder="Phone Number" required>
             </div>
             <div class="phone-number-input">
-                <select id="relationship3">
+                <select id="relationship3" name="relationship3" required>
                     <option value="">Select Relationship</option>
                     <option value="Father">Father</option>
                     <option value="Mother">Mother</option>
@@ -47,14 +47,14 @@
                     <option value="Friend">Friend</option>
                     <option value="Other">Other</option>
                 </select>
-                <input type="text" id="name3" placeholder="Name">
-                <input type="tel" id="phone3" placeholder="Phone Number">
+                <input type="text" id="name3" name="name3" placeholder="Name" required>
+                <input type="tel" id="phone3" name="phone3" placeholder="Phone Number" required>
             </div>
         </div>
         <h2>Emergency Email Addresses</h2>
         <div id="email-addresses">
             <div class="email-address-input">
-                <select id="relationship4">
+                <select id="relationship4" name="relationship4" required>
                     <option value="">Select Relationship</option>
                     <option value="Father">Father</option>
                     <option value="Mother">Mother</option>
@@ -63,11 +63,11 @@
                     <option value="Friend">Friend</option>
                     <option value="Other">Other</option>
                 </select>
-                <input type="text" id="name4" placeholder="Name">
-                <input type="email" id="email1" placeholder="Email Address">
+                <input type="text" id="name4" name="name4" placeholder="Name" required>
+                <input type="email" id="email1" name="email1" placeholder="Email Address" required>
             </div>
             <div class="email-address-input">
-                <select id="relationship5">
+                <select id="relationship5" name="relationship5" required>
                     <option value="">Select Relationship</option>
                     <option value="Father">Father</option>
                     <option value="Mother">Mother</option>
@@ -76,11 +76,11 @@
                     <option value="Friend">Friend</option>
                     <option value="Other">Other</option>
                 </select>
-                <input type="text" id="name5" placeholder="Name">
-                <input type="email" id="email2" placeholder="Email Address">
+                <input type="text" id="name5" name="name5" placeholder="Name" required>
+                <input type="email" id="email2" name="email2" placeholder="Email Address" required>
             </div>
             <div class="email-address-input">
-                <select id="relationship6">
+                <select id="relationship6" name="relationship6" required>
                     <option value="">Select Relationship</option>
                     <option value="Father">Father</option>
                     <option value="Mother">Mother</option>
@@ -89,11 +89,11 @@
                     <option value="Friend">Friend</option>
                     <option value="Other">Other</option>
                 </select>
-                <input type="text" id="name6" placeholder="Name">
-                <input type="email" id="email3" placeholder="Email Address">
+                <input type="text" id="name6" name="name6" placeholder="Name" required>
+                <input type="email" id="email3" name="email3" placeholder="Email Address" required>
             </div>
         </div>
-        <button id="submit-btn">Submit</button>
+        <button type="submit" id="submit-btn">Submit</button>
     </form>
     <script src="emergency.js"></script>
 </body>
